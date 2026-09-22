@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.git/
+.gitignore
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+artifacts/
+models/
