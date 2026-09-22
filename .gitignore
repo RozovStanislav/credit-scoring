@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Данные и модели (пока не коммитим)
+data.xls
+*.xls
+*.xlsx
+*.csv
+*.parquet
+*.npy
+*.cbm
+*.pkl
+*.db
+
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flask
+.env
+instance/
