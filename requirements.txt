@@ -1,0 +1,17 @@
+numpy==2.2.6
+pandas==3.0.2
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.8.0
+xgboost==3.2.0
+lightgbm==4.7.0
+catboost==1.2.10
+optuna==5.0.0
+shap==0.52.0
+pyarrow
+xlrd
+openpyxl
+scipy
+tqdm
+jupyterlab
+notebook
