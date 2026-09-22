@@ -1,0 +1,17 @@
+{
+  "cv_score_mean": 0.680435453177379,
+  "cv_score_std": 0.0014700591378049158,
+  "n_trials": 40,
+  "n_complete": 40,
+  "n_pruned": 0,
+  "tune_splits": 3,
+  "final_splits": 5,
+  "es_tune": 30,
+  "es_final": 150,
+  "oof_auc": 0.7909979351426417,
+  "oof_pr_auc": 0.5659924869251507,
+  "best_iter_mean": 374.6,
+  "best_iter_std": 69.33570508763866,
+  "final_iter": 412,
+  "objective": "0.5*roc_auc + 0.5*pr_auc"
+}

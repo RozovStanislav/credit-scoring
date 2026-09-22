@@ -1,0 +1,28 @@
+{
+  "train_shape": [
+    23972,
+    52
+  ],
+  "test_shape": [
+    5993,
+    52
+  ],
+  "n_features": 51,
+  "n_new_features": 28,
+  "cat_features": [
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE"
+  ],
+  "target_balance_train": {
+    "0": 0.7787,
+    "1": 0.2213
+  },
+  "target_balance_test": {
+    "0": 0.7787,
+    "1": 0.2213
+  },
+  "random_state": 42,
+  "split_type": "StratifiedShuffleSplit",
+  "test_size": 0.2
+}

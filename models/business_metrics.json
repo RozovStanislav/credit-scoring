@@ -1,0 +1,19 @@
+{
+  "lgd": 0.6,
+  "ead_mean": 200000,
+  "margin_good": 20000,
+  "opt_threshold": 0.13373737373737374,
+  "selected_on": "oof",
+  "approval_rate": 0.4668780243617554,
+  "n_approved": 2798,
+  "bad_rate_approved": 0.08684774839170836,
+  "mean_pd_approved": 0.0830867103320207,
+  "expected_loss_approved": 27897193.86107927,
+  "profit_test": 21940000.000000004,
+  "confusion_test": {
+    "tn": 2555,
+    "fn": 243,
+    "fp": 2112,
+    "tp": 1083
+  }
+}

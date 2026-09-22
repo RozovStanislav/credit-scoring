@@ -1,0 +1,60 @@
+{
+  "top20_features_by_shap": {
+    "PAY_0": 0.25108,
+    "max_delay": 0.11615,
+    "months_with_debt": 0.09244,
+    "sum_positive_delay": 0.09068,
+    "utilization": 0.06825,
+    "limit_per_age": 0.06633,
+    "avg_utilization": 0.06628,
+    "LIMIT_BAL": 0.05707,
+    "PAY_AMT3": 0.0554,
+    "PAY_AMT2": 0.05342,
+    "PAY_2": 0.0503,
+    "mean_delay": 0.04925,
+    "MARRIAGE": 0.04339,
+    "log_pay1": 0.03983,
+    "bill_x_age": 0.03892,
+    "payment_ratio": 0.03787,
+    "avg_payment": 0.03756,
+    "std_bill": 0.0356,
+    "pay_x_pay0": 0.03557,
+    "bill_trend": 0.03544
+  },
+  "threshold_used": 0.13373737373737374,
+  "calibrator_type": "platt",
+  "test_auc": 0.7819150603657593,
+  "test_prauc": 0.5637083248637811,
+  "test_brier": 0.1344052248249976,
+  "test_ece": 0.01300677402851795,
+  "waterfall_examples": {
+    "BAD (default=1, высокий PD)": {
+      "idx": 300,
+      "y_true": 1,
+      "PD_cal": 0.9299188843124363,
+      "decision": "REJECT"
+    },
+    "BORDERLINE (около порога)": {
+      "idx": 2498,
+      "y_true": 0,
+      "PD_cal": 0.13374506384669532,
+      "decision": "REJECT"
+    },
+    "GOOD (default=0, низкий PD)": {
+      "idx": 2296,
+      "y_true": 1,
+      "PD_cal": 0.019474181787453852,
+      "decision": "APPROVE"
+    }
+  },
+  "error_analysis": {
+    "n_FN": 243,
+    "n_FP": 2112,
+    "n_TP": 1083,
+    "n_TN": 2555,
+    "loss_FN_estimate": 29159999.999999996,
+    "lost_profit_FP_estimate": 42240000.0,
+    "gained_profit_TN_estimate": 51100000.0,
+    "P_and_L_estimate": 21940000.000000004
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "best_value": 0.680435453177379,
+  "best_params": {
+    "iterations": 900,
+    "depth": 6,
+    "learning_rate": 0.03245319745135264,
+    "l2_leaf_reg": 1.8657610256032258,
+    "bagging_temperature": 0.0796509649578098,
+    "random_strength": 1.1743427533769482,
+    "one_hot_max_size": 2,
+    "min_data_in_leaf": 30
+  },
+  "n_trials": 40,
+  "n_complete": 40,
+  "n_pruned": 0,
+  "objective": "0.5*roc_auc + 0.5*pr_auc",
+  "tune_splits": 3,
+  "es_tune": 30
+}

@@ -1,0 +1,12 @@
+{
+  "opt_threshold": 0.13373737373737374,
+  "profit_oof": 97560000.0,
+  "profit_test": 21940000.000000004,
+  "confusion_test": {
+    "tn": 2555,
+    "fn": 243,
+    "fp": 2112,
+    "tp": 1083
+  },
+  "selected_on": "oof"
+}
